@@ -1,1 +1,1 @@
-worker: forever start simple-bot.js
+worker: node simple-bot.js
