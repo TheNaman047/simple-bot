@@ -5,10 +5,9 @@
     "main": "simple-bot.js",
     "author": "TheNaman047",
     "scripts": {
-        "start": "forever start simple-bot.js"
+        "start": "node simple-bot.js"
     },
     "dependencies": {
-	"forever" : "0.15.3",
 	"discord.js" : "11.2.1"
 	}
 }
