@@ -22,6 +22,9 @@ bot.on('message', message =>{
             if(msg === prefix + "ping" && message.channel.id === "380337491460489219"){
                 message.channel.send('Pong!') // Sends a message to the channel, with the content
             }
+            else{
+                message.channel.send("Hey, I only understand .ping right now. More will be added when my creator is free. :) ")
+            }
         }
         else{
             message.delete();
