@@ -44,4 +44,4 @@ bot.on('guildMemberRemove', member => {
     member.guild.channels.get('380298444243468289').send('**' + member.user.username + '**, has left the server!')
 });
 // login
-bot.login(token.token) //don't let people know this code as they can then control your bot with it
+bot.login(process.env.BOT_TOKEN) //don't let people know this code as they can then control your bot with it
