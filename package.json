@@ -5,7 +5,7 @@
     "main": "simple-bot.js",
     "author": "TheNaman047",
     "scripts": {
-        "start": "forever simple-bot.js"
+        "start": "forever start simple-bot.js"
     },
     "dependencies": {
 	"forever" : "0.15.3",
