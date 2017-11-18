@@ -4,5 +4,11 @@
     "description": "This is a simple test and experiment bot",
     "main": "simple-bot.js",
     "author": "TheNaman047",
-    "dependencies": {}
-  }
+    "scripts": {
+        "start": "forever simple-bot.js"
+    },
+    "dependencies": {
+	"forever" : "0.15.3",
+	"discord.js" : "11.2.1"
+	}
+}
